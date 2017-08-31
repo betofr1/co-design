@@ -1,6 +1,6 @@
 h1{
 	
-	font-family: "Times new roman" serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 40pt;
 }
 
@@ -34,16 +34,16 @@ h1{
 }
 
 .col0{
-	width: 33,33%;
+	width: 33.33%;
 	padding: 40px;
 }
 
 .col1{
-	width: 33,33%;
+	width: 33.33%;
 	padding: 40px;
 }
 
 .col2{
-	width: 33,33%;
+	width: 33.33%;
 	padding: 40px;
 }
