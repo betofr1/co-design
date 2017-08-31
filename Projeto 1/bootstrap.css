@@ -64,6 +64,7 @@
 
 html {
   box-sizing: border-box;
+  background-color: #5E6B6B;
   font-family: 'Open Sans', sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -88,12 +89,13 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
+  
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff;
+  background-color: #F0D4C0;
 }
 
 [tabindex="-1"]:focus {
@@ -4721,7 +4723,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -4835,7 +4837,7 @@ button.close {
   display: block;
   max-width: 276px;
   padding: 1px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
