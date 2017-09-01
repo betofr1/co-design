@@ -1,6 +1,6 @@
 h1{
 	
-	font-family: "Times new roman" serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 40pt;
 }
 
@@ -47,9 +47,6 @@ h1{
 	width: 33.33%;
 	padding: 40px;
 }
-
-
-
 
 ul {
     list-style-type: none;
