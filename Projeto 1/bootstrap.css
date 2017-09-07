@@ -64,7 +64,7 @@
 
 html {
   box-sizing: border-box;
-  background-color: #5E6B6B;
+  background-color: #FFFFFF;
   font-family: 'Open Sans', sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -95,7 +95,7 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #212529;
-  background-color: #F0D4C0;
+  background-color: #FFFFFF;
 }
 
 [tabindex="-1"]:focus {
