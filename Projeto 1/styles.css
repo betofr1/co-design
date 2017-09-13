@@ -24,9 +24,13 @@ p{
 }
 
 .indent4 {
-	margin-left:130px;
+	margin-left: 7%;
+	
 }
-
+.footer1{
+	margin-left: 10%;
+	
+}
 .gap_below {
 	margin-bottom: 25px;
 }
