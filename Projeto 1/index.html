@@ -1,22 +1,17 @@
+<!DOCTYPE html>
 <html> 
 
 	 <head>
-
-		<title>Portifólio</title>
-		<meta charset = 'utf-8'/>
-
-		<link rel="stylesheet"
-		  type="text/css"
-		  href="bootstrap.css" 
-	      />
-
-		  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
-		  
-	    <link rel= "stylesheet"
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <title>Portifólio</title>
+	 <meta charset = "utf-8"/>
+	 <link href="css/bootstrap-3.3.7.css" rel="stylesheet" type="text/css">
+	 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
+	 <link rel= "stylesheet"
 		  type = "text/css"
 		  href = "styles.css" 
 	      />
-
 	 </head>
 
 	<body> 
@@ -48,16 +43,19 @@
 
 				 <li><a href="artigos.html">
 				Artigos
-				 </a> </li>
+				 </a></li>
+				 
+				 &nbsp; 
+				 
+				 <li><a href="eletronica.html">
+				Eletrônica
+				 </a></li>
 
-		</ul>
+		</ul>			
 
-			&nbsp;
-
-		<center><img src = "image_engine.jpg"
-					weidth = 300
-					height = 300
-					/></center>
+		<center>
+		  <div id="carousel1" class="carousel slide" data-ride="carousel"><img src = "image_engine.jpg"/></div>
+		</center>
 
 
 		<div class= "container">
@@ -66,26 +64,26 @@
 					<a href = "beto.html" >
 					 
 						<img src = "icone_beto1.png"
-						margin-top = 200cm
-						weidth = 250
-						height = 250
+						margin-top = "200cm"
+						width = "250"
+						height = "250"
 						/>
 					</a>
 
-					<p>Roberto Franco</p> 
-					<p class = indent4>Engenharia Mecânica</p>
+					<p>Roberto Franco</p>
+<p class = "indent4">Engenharia Mecânica</p>
 					
 			  <div class = "col01">
 					
 					<a href = "vitturi.html" > 
 							 
 						<img src = "icone_vitturi1.jpg"
-						weidth = 250
-						height = 250
+						width = "250"
+						height = "250"
 						/>
 					</a>
-					<p>Vitor Vitturi</p>
-				<p class = indent4>Engenharia da Computação</p>
+				<p>Vitor Vitturi</p>
+				<p class = "indent4">Engenharia da Computação</p>
 					</div>
 				  </div>
 
@@ -94,14 +92,14 @@
 				<a href = "salvador.html" > 
 					 
 					<img src = "icone_salvador1.jpg"
-						margin-left = 30cm
-						weidth = 250
-						height = 250
+						margin-left = "30cm"
+						width = "250"
+						height = "250"
 						/> 
 
 				</a>
 				<p class >Gabriel Salvador</p> 
-				<p class = indent4 >Engenharia Mecatrônica</p>
+				<p class = "indent4" >Engenharia Mecatrônica</p>
 			  </div>
 			</div>
 		</div>
@@ -109,8 +107,11 @@
 		<footer>
 			
 		<center><h3>Contatos:</h3></center>
-			<center><p class = "indent3""gab_above">Roberto Franco</p></center>
-			<center><p class = "indent4"> Telefone: </p></center>
+			<p class = "indent3">Roberto Franco</p>
+			<p class = "indent3">Gabriel Salvador</p>
+			<p class = "indent3">Vitor Vitturi</p>
 		</footer>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.js"></script>
 	</body>
 </html>
