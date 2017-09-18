@@ -110,14 +110,7 @@ li a:hover:not(.active) {
 	display: inline-block;
 	background-color: white;
 }
-<<<<<<< HEAD
 
-.carousel{
-	color: none;
-    background-color: green;
-=======
 .carousel-example-generic{
 	width: 200px;
 	height: auto;	
->>>>>>> 5802ebf9f8d4925094396ab3cc5542d239031041
-}
