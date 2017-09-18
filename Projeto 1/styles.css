@@ -103,5 +103,14 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: white;
+
+}
+.carousel-indicators li{
+	display: inline-block;
+	background-color: white;
+}
+.carousel-example-generic{
+	width: 200px;
+	height: auto;	
 }
