@@ -114,3 +114,8 @@ li a:hover:not(.active) {
 .carousel-example-generic{
 	width: 200px;
 	height: auto;	
+
+.foto {
+    transition: all 2s linear;
+}
+	
