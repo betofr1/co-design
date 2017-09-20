@@ -20,11 +20,20 @@ p{
 }
 
 .indent3 {
-	margin-left:30px;
+	text-align: center;
+	border: dashed thick #B91013;
+	
+}
+.contatos{
+	font-family: 'Open Sans', sans-serif;
+	border: dashed thick #B91013;
+	font-weight:normal;
+	margin-left: 43%;
+	margin-right: auto;
 }
 
 .indent4 {
-	margin-left: 7%;
+	margin-left: 5%;
 	
 }
 .footer1{
@@ -33,6 +42,7 @@ p{
 }
 .gap_below {
 	margin-bottom: 25px;
+	position: absolute;
 }
 
 .gap_above {
@@ -131,5 +141,19 @@ li a:hover:not(.active) {
   100% {
   	opacity: 0;
   }
+}
 
+.col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  border: medium dashed black;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+.col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
 }
