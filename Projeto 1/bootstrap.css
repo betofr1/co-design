@@ -120,9 +120,8 @@ p {
 
 abbr[title],
 abbr[data-original-title] {
-  text-decoration: underline;
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: none;
+  -webkit-text-decoration: none;
   cursor: help;
   border-bottom: 0;
 }
@@ -634,7 +633,6 @@ pre code {
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
-  width: 100%;
 }
 
 .row {
@@ -3253,7 +3251,7 @@ tbody.collapse.show {
   padding: 0.5rem 1rem;
 }
 
-.navbar > .container,
+.container,
 .navbar > .container-fluid {
   display: -ms-flexbox;
   display: flex;

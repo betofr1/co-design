@@ -13,44 +13,60 @@ p{
 
 .indent1 {
 	margin-left:70px;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;;
 }
 
 .indent2 {
 	margin-left:110px;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
 }
 
 .indent3 {
 	text-align: center;
 	color: #A2A2A2;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+	
+}
+
+.indent-footer {
+	text-align: center;
+	margin-left: 8%;
+	color: #A2A2A2;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
 	
 }
 .contatos{
 	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+	font-weight: 40pt;
 	color: #F6F5F5;
-	font-weight:normal;
 	margin-left: 43%;
 	margin-right: auto;
 }
 
 .indent4 {
 	margin-left: 5%;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;;
 	
 }
 .footer1{
 	margin-left: 10%;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;;
 	
 }
 .gap_below {
 	margin-bottom: 25px;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;;
 	position: absolute;
 }
 
 .gap_above {
 	margin-top: 25px;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;;
 }
 
 .gap_below2 {
 	margin-bottom: 50px;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;;
 }
 
 .row{
@@ -146,17 +162,15 @@ li a:hover:not(.active) {
 
 h2 {
   font-weight: normal;
+  font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;;
 }
-<<<<<<< HEAD
-=======
-
+body{
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;;
+}
 .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
 }
-
-
 .lado{
 	position: right;
 }
->>>>>>> 6c76c31df2e90dec0fa59424f77cefc3519fd641
