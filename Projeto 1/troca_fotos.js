@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-  var i = 1;
+  var i = 2;
 
   var troca = function() {
     var foto = document.querySelector(".foto");

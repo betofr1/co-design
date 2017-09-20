@@ -114,8 +114,22 @@ li a:hover:not(.active) {
 .carousel-example-generic{
 	width: 200px;
 	height: auto;	
+}
 
 .foto {
-    transition: all 2s linear;
+  animation: pulse 2s infinite;
 }
-	
+
+@keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+  	opacity: 0;
+  }
+
+}
