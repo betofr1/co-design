@@ -73,18 +73,25 @@ p{
 	margin-top: 100px
 }
 .col0{
-	width: 50%;
+	width: 100%;
 	padding: 40px;
 }
 
 .col1{
-	width: 50%;
+	width: 100%;
 	padding: 4px;
 	margin-top: 300px
 }
 
 .col2{
-	width: 33.33%;
+	width: 100%;
+	padding: 4px;
+	margin-top: 300px
+}
+
+
+.col01{
+	width: 50%;
 	padding: 40px;
 }
 
@@ -94,6 +101,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #FAFAFA;
+    left: 100cm;
 }
 
 li {
@@ -109,9 +117,9 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #ED0100;
+    background-color: rgb(201,201,201);
 
-    background-opacity: 0.5;
+
 }
 
 .active {
@@ -158,4 +166,9 @@ h2 {
 .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
+}
+
+
+.lado{
+	position: right;
 }
