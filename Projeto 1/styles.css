@@ -1,10 +1,10 @@
 h1{
 	
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;;
 	font-size: 40pt;
 }
 p{
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;;
 	width:80%;
 	margin-left: 100px; 
 	margin-right: 200px; 
@@ -21,12 +21,12 @@ p{
 
 .indent3 {
 	text-align: center;
-	border: dashed thick #B91013;
+	color: #A2A2A2;
 	
 }
 .contatos{
-	font-family: 'Open Sans', sans-serif;
-	border: dashed thick #B91013;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+	color: #F6F5F5;
 	font-weight:normal;
 	margin-left: 43%;
 	margin-right: auto;
@@ -144,15 +144,11 @@ li a:hover:not(.active) {
   }
 }
 
-.col-lg-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
-  border: medium dashed black;
-}
-
 h2 {
   font-weight: normal;
 }
+<<<<<<< HEAD
+=======
 
 .col-lg-4 p {
   margin-right: .75rem;
@@ -163,3 +159,4 @@ h2 {
 .lado{
 	position: right;
 }
+>>>>>>> 6c76c31df2e90dec0fa59424f77cefc3519fd641
