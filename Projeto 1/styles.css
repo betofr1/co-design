@@ -75,33 +75,61 @@ p{
 
 
 .col0 img{
-	margin-right: 100px;
-	margin-top: 100px;
+	margin-top: 10%;
+	float: left;
+	border: dotted blue;
 }
 
 .col1 img{
-	margin-right: 100px;
-	margin-top: 100px
+	margin-top: 10%;
+	float: right;
+	border: dotted blue;
 }
 
 .col2 img{
-	margin-right: 100px;
-	margin-top: 100px
+	margin-top: 10%;
+	float: left;
+	border: dotted blue;
 }
 .col0{
 	width: 100%;
+	border: dotted red;
 }
 
 .col1{
 	width: 100%;
+	border: dotted red;
 	
 }
 
 .col2{
 	width: 100%;
+	border: dotted red;
 }
-
-
+.lado2{
+	text-align: left;
+	width: 60%;
+	border: dotted yellow;
+}
+.lado1{
+	text-align: right;
+	width: 60%;
+	border: dotted yellow;
+	
+}
+.lado2-titulo{
+	text-align: left;
+	margin-top: 10%;
+	width: 60%;
+	border: dotted yellow;
+}
+.lado1-titulo{
+	text-align: right;
+	margin-top: 10%;
+	width: 60%;
+	border: dotted yellow;
+	
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -173,4 +201,7 @@ body{
 }
 .lado{
 	position: right;
+}
+.container{
+	border: dotted black;
 }
