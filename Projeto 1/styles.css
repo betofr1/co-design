@@ -141,6 +141,7 @@ ul {
 
 li {
     float: left;
+    font-size: 20px;
 }
 
 li a {
@@ -151,8 +152,9 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+li a:hover{
     background-color: rgb(201,201,201);
+    text-decoration: none;
 
 
 }
