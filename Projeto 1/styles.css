@@ -47,6 +47,7 @@ p{
 	margin-left: 42%;
 	margin-right: auto;
 	margin-bottom: 5%;
+	margin-top: 10%;
 }
 
 .indent4 {
@@ -239,23 +240,19 @@ body{
 	position: right;
 }
 
-#footer{​
-    background-image: url("./images/lower_footer.png");
-    background-size: 100% 100%;
-}​
 
+.image{
 
-#texto {
-	position: absolute;
+	width:100%;
+	background-image: url("./images/lower_footer.png");
 }
-
 .container{
 	/*border: dotted black;*/
 }
 	
 /* BTN GERAL */
 .btn{
-	background: none;
+	background: #949494;
 	border: solid 1px transparent;
 	border-radius: 5px;
 	font-size: 14px;
@@ -268,18 +265,18 @@ body{
 .btn i{
 
 	margin-right: 5px;
-	
+
 	}
 
 /* BTN COLORES */
 .btn-primary{
-	border-color: #2E8B57;
-	color: #3CB371;
+	border-color: #949494;
+	color: #949494;
 	transition: background 0.3s linear 0s;
 }
 
 .btn-primary:hover{
-	background: #2E8B57;
-	border-color: #287A4B;
-	color: #ffffff;
+	background: #7A7A7A;
+	border-color: #7A7A7A;
+	color: #949494;
 	}
