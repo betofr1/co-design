@@ -11,10 +11,15 @@ p{
   	line-height: 180%	
 }
 .insper{
-	text-align: center;
-	margin-left: 80%;
-	font-size: 1.75em;
-	font-family: "Eras ITC", "Eras Light ITC", sans-serif ;
+	width: 170px;
+	margin-top: 0.25%;
+	height: 50px;
+	float: right;
+
+}
+.insper img{
+	width: 100%;
+
 }
 .indent1 {
 	margin-left:70px;
@@ -114,17 +119,25 @@ p{
 	/*border: dotted red;*/
 }
 .lado1{
+	width: auto;
 	text-align: center;
-	width: 60%;
 	font-size: 2em;
-	/*border: dotted yellow;*/
-	
+	color: #8B8B8B;
+	font-size: 30px;
+	text-shadow: 2px 12px 32px #737373;
+	font-weight: 200;
+	left: -140px;	/*border: dotted yellow;*/
+	margin-left: 113px;
 }
 .lado3{
 	text-align: left;
 	width: 40%;
 	font-size: 2.0em;
 	margin-left: 40%;
+	color: #8B8B8B;
+	font-size: 30px;
+	text-shadow: 2px 12px 32px #737373;
+	font-weight: 200;
 	/*border: dotted black;*/
 }
 .lado3-titulo{
@@ -132,7 +145,11 @@ p{
 	margin-top: 15%;
 	margin-left: 40%;
 	font-size: 3.2em;
-	width: 40%;
+	width: auto;
+	color: #8B8B8B;
+	font-size: 68px;
+	text-shadow: 2px 12px 32px #737373;
+	font-weight: 200;
 
 	/*border: dotted yellow;*/
 }
@@ -140,8 +157,16 @@ p{
 	text-align: center;
 	margin-right: 40%; 
 	margin-top: 15%;
-	font-size: 3.2em;
 	width: 60%;
+	color: #8B8B8B;
+	font-size: 68px;
+	text-shadow: 2px 12px 32px #737373;
+	font-weight: 200;
+	
+
+
+
+	
 	/*border: dotted yellow;*/
 	
 }
@@ -240,12 +265,12 @@ body{
 	position: right;
 }
 
-
 .image{
 
 	width:100%;
 	background-image: url("./images/lower_footer.png");
 }
+
 .container{
 	/*border: dotted black;*/
 }
@@ -265,7 +290,6 @@ body{
 .btn i{
 
 	margin-right: 5px;
-
 	}
 
 /* BTN COLORES */
@@ -276,6 +300,7 @@ body{
 }
 
 .btn-primary:hover{
+
 	background: #7A7A7A;
 	border-color: #7A7A7A;
 	color: #949494;
