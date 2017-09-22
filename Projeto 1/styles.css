@@ -183,6 +183,7 @@ ul {
 
 li {
     float: left;
+    text-decoration: none;
     font-size: 20px;
 }
 
@@ -196,11 +197,16 @@ li a {
 }
 
 li a:hover{
+    background-color: rgb(201,201,201);
+
+    text-decoration: none;
+
     background-color: rgb(205,63,55);
     text-decoration: none;
     font-size: 1em;
     color: white;
 }
+
 #botaoSelecionado{
 	background-color: rgb(205,63,55);
 	color: white;
@@ -252,6 +258,17 @@ body{
 .lado{
 	position: right;
 }
+
+#footer{​
+    background-image: url("./images/lower_footer.png");
+    background-size: 100% 100%;
+}​
+
+
+#texto {
+	position: absolute;
+}
+
 .container{
 	/*border: dotted black;*/
 }
@@ -268,8 +285,10 @@ body{
 	text-decoration: none;
 }
 
-	.btn i{
-		margin-right: 5px;
+.btn i{
+
+	margin-right: 5px;
+	
 	}
 
 /* BTN COLORES */
@@ -279,8 +298,8 @@ body{
 	transition: background 0.3s linear 0s;
 }
 
-	.btn-primary:hover{
-		background: #2E8B57;
-		border-color: #287A4B;
-		color: #ffffff;
+.btn-primary:hover{
+	background: #2E8B57;
+	border-color: #287A4B;
+	color: #ffffff;
 	}
