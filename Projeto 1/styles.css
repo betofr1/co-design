@@ -1,19 +1,24 @@
 h1{
 	
-	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
 	font-size: 40pt;
 }
 p{
-	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
 	width:80%;
 	margin-left: 100px; 
 	margin-right: 200px; 
   	line-height: 180%	
 }
-
+.insper{
+	text-align: center;
+	margin-left: 80%;
+	font-size: 1.75em;
+	font-family: "Eras ITC", "Eras Light ITC", sans-serif ;
+}
 .indent1 {
 	margin-left:70px;
-	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
 }
 
 .indent2 {
@@ -37,10 +42,11 @@ p{
 }
 .contatos{
 	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
-	font-weight: 40pt;
+	font-size: 40px;
 	color: #F6F5F5;
-	margin-left: 43%;
+	margin-left: 42%;
 	margin-right: auto;
+	margin-bottom: 5%;
 }
 
 .indent4 {
@@ -75,33 +81,77 @@ p{
 
 
 .col0 img{
-	margin-right: 100px;
-	margin-top: 100px;
+	margin-top: 10%;
+	float: left;
+	/*border: dotted blue;*/
 }
 
 .col1 img{
-	margin-right: 100px;
-	margin-top: 100px
+	margin-top: 10%;
+	float: right;
+	/*border: dotted blue;*/
 }
 
 .col2 img{
-	margin-right: 100px;
-	margin-top: 100px
+	margin-top: 10%;
+	float: left;
+	/*border: dotted blue;*/
 }
 .col0{
 	width: 100%;
+	/*border: dotted red;*/
 }
 
 .col1{
 	width: 100%;
+	/*border: dotted red;*/
 	
 }
 
 .col2{
 	width: 100%;
+	/*border: dotted red;*/
 }
+.lado1{
+	text-align: center;
+	width: 60%;
+	font-size: 2em;
+	/*border: dotted yellow;*/
+	
+}
+.lado3{
+	text-align: left;
+	width: 40%;
+	font-size: 2.0em;
+	margin-left: 40%;
+	/*border: dotted black;*/
+}
+.lado3-titulo{
+	text-align: left;
+	margin-top: 15%;
+	margin-left: 40%;
+	font-size: 3.2em;
+	width: 40%;
 
-
+	/*border: dotted yellow;*/
+}
+.lado1-titulo{
+	text-align: center;
+	margin-right: 40%; 
+	margin-top: 15%;
+	font-size: 3.2em;
+	width: 60%;
+	/*border: dotted yellow;*/
+	
+}
+hr.style1{
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, rgb(205,63,55), #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -113,12 +163,14 @@ ul {
 
 li {
     float: left;
-     text-decoration: none;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 li a {
     display: block;
     color: black;
+    font-size: 1em;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -129,7 +181,16 @@ li a:hover{
 
     text-decoration: none;
 
+    background-color: rgb(205,63,55);
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+}
 
+#botaoSelecionado{
+	background-color: rgb(205,63,55);
+	color: white;
+	text-decoration: none;
 }
 
 .active {
@@ -181,11 +242,44 @@ body{
 #footer{​
     background-image: url("./images/lower_footer.png");
     background-size: 100% 100%;
-   
-
 }​
 
 
 #texto {
 	position: absolute;
 }
+
+.container{
+	/*border: dotted black;*/
+}
+	
+/* BTN GERAL */
+.btn{
+	background: none;
+	border: solid 1px transparent;
+	border-radius: 5px;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	padding: 6px 12px;
+	text-decoration: none;
+}
+
+.btn i{
+
+	margin-right: 5px;
+	
+	}
+
+/* BTN COLORES */
+.btn-primary{
+	border-color: #2E8B57;
+	color: #3CB371;
+	transition: background 0.3s linear 0s;
+}
+
+.btn-primary:hover{
+	background: #2E8B57;
+	border-color: #287A4B;
+	color: #ffffff;
+	}
