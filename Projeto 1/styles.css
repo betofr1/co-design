@@ -11,10 +11,15 @@ p{
   	line-height: 180%	
 }
 .insper{
-	text-align: center;
-	margin-left: 80%;
-	font-size: 1.75em;
-	font-family: "Eras ITC", "Eras Light ITC", sans-serif ;
+	width: 170px;
+	margin-top: 0.25%;
+	height: 50px;
+	float: right;
+
+}
+.insper img{
+	width: 100%;
+
 }
 .indent1 {
 	margin-left:70px;
