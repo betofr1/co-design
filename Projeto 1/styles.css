@@ -113,6 +113,7 @@ ul {
 
 li {
     float: left;
+     text-decoration: none;
 }
 
 li a {
@@ -123,8 +124,10 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+li a:hover{
     background-color: rgb(201,201,201);
+
+    text-decoration: none;
 
 
 }
@@ -173,4 +176,16 @@ body{
 }
 .lado{
 	position: right;
+}
+
+#footer{​
+    background-image: url("./images/lower_footer.png");
+    background-size: 100% 100%;
+   
+
+}​
+
+
+#texto {
+	position: absolute;
 }
