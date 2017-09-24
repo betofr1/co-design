@@ -79,6 +79,8 @@ p{
 	border: dotted;
 	width: 30%;
 	float: left;
+	position: relative;
+	bottom: -100px;
 }
 .gabriel-f{
 	border: dotted yellow; 
@@ -93,6 +95,8 @@ p{
 	width: 30%;
 	position: relative;
 	left: 60%;
+	position: relative;
+	
 
 }
 
@@ -103,19 +107,20 @@ p{
 	font-family: "Eras ITC", "Eras Light ITC",  sans-serif;
 }
 .contatos{
-	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif;
 	font-size: 3em;
 	color: #F6F5F5;
 	margin-left: 40%;
 	margin-bottom: 2.5%;
 	margin-top: 5%;
 	margin-right: 43%;
-	position: center;
+	position: relative;
 	border: dotted black;
+	bottom: -70px;
 
 }
 .footer-f{
-	border: dotted black;
+	background-image: url(images/lower_footer.png)
 }
 
 .indent4 {
@@ -186,7 +191,6 @@ p{
 .lado1{
 	width: auto;
 	text-align: center;
-	font-size: 2em;
 	color: #8B8B8B;
 	font-size: 30px;
 	text-shadow: 2px 12px 32px #737373;
@@ -197,7 +201,6 @@ p{
 .lado3{
 	text-align: left;
 	width: 40%;
-	font-size: 2.0em;
 	margin-left: 40%;
 	color: #8B8B8B;
 	font-size: 30px;
@@ -209,7 +212,6 @@ p{
 	text-align: left;
 	margin-top: 15%;
 	margin-left: 40%;
-	font-size: 3.2em;
 	width: auto;
 	color: #8B8B8B;
 	font-size: 68px;
@@ -268,7 +270,6 @@ li a:hover{
     text-decoration: none;
 
     background-color: rgb(205,63,55);
-    text-decoration: none;
     font-size: 1em;
     color: white;
 }
@@ -379,6 +380,7 @@ button.accordion {
 }
 button.accordion.active, button.accordion:hover {
 	background-color: rgba(240,0,4,0.12);}
+
 div.panel {
     padding: 0 18px;
     background-color: white;

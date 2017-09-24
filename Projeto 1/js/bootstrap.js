@@ -2375,6 +2375,7 @@ if (typeof jQuery === 'undefined') {
   })
 
 }(jQuery);
+
  var acc = document.getElementsByClassName("accordion");
  var i;
 
