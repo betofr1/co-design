@@ -42,8 +42,7 @@ p{
 	text-align: center;
 	margin-left: 8%;
 	color: #A2A2A2;
-	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
-	
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif;
 }
 .contatos{
 	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
@@ -62,13 +61,15 @@ p{
 }
 .footer1{
 	margin-left: 10%;
-	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;;
-	
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif;
+	width: 30px;
+	height: 30px;
 }
 .gap_below {
 	margin-bottom: 25px;
 	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;;
 	position: absolute;
+	
 }
 
 .gap_above {
@@ -305,3 +306,29 @@ body{
 	border-color: #7A7A7A;
 	color: #949494;
 	}
+button.accordion {
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif; 
+    background-color: rgba(225,225,225,0.41);
+    color: #0F0F0F;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+button.accordion.active, button.accordion:hover {
+	background-color: rgba(240,0,4,0.12);}
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
