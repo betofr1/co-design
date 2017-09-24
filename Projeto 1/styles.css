@@ -33,26 +33,94 @@ p{
 
 .indent3 {
 	text-align: center;
+	border: dotted black;
 	color: #A2A2A2;
 	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
 	
+}
+
+.indent3-R{
+	border: dotted black;
+	color: #A2A2A2;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+	width: 300px;
+}
+.indent3-RE{
+	border: dotted black;
+	color: #A2A2A2;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+	width: 280px;
+}
+.indent3-G{
+	border: dotted yellow;
+	color: #A2A2A2;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+	width: 300px;
+}
+.indent3-GE{
+	border: dotted yellow;
+	color: #A2A2A2;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+	width: 280px;
+}
+.indent3-V{
+	border: dotted black;
+	color: #A2A2A2;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+	width: 280px;
+}
+.indent3-VE{
+	border: dotted black;
+	color: #A2A2A2;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+	width: 280px;
+}
+.roberto-f{
+	border: dotted;
+	width: 30%;
+	float: left;
+	position: relative;
+	bottom: -100px;
+}
+.gabriel-f{
+	border: dotted yellow; 
+	width: 30%;
+	height: 100px;
+	position: relative;	
+	left: 30%;
+
+}
+.vitor-f{
+	border: dotted;
+	width: 30%;
+	position: relative;
+	left: 60%;
+	position: relative;
+	
+
 }
 
 .indent-footer {
 	text-align: center;
 	margin-left: 8%;
 	color: #A2A2A2;
-	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
-	
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif;
 }
 .contatos{
-	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
-	font-size: 40px;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif;
+	font-size: 3em;
 	color: #F6F5F5;
-	margin-left: 42%;
-	margin-right: auto;
-	margin-bottom: 5%;
-	margin-top: 10%;
+	margin-left: 40%;
+	margin-bottom: 2.5%;
+	margin-top: 5%;
+	margin-right: 43%;
+	position: relative;
+	border: dotted black;
+	bottom: -70px;
+
+}
+.footer-f{
+	background-image: url(images/lower_footer.png)
 }
 
 .indent4 {
@@ -62,13 +130,15 @@ p{
 }
 .footer1{
 	margin-left: 10%;
-	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;;
-	
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif;
+	width: 30px;
+	height: 30px;
 }
 .gap_below {
 	margin-bottom: 25px;
 	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;;
 	position: absolute;
+	
 }
 
 .gap_above {
@@ -138,7 +208,6 @@ p{
 .lado1{
 	width: auto;
 	text-align: center;
-	font-size: 2em;
 	color: #8B8B8B;
 	font-size: 30px;
 	text-shadow: 2px 12px 32px #737373;
@@ -149,7 +218,6 @@ p{
 .lado3{
 	text-align: left;
 	width: 40%;
-	font-size: 2.0em;
 	margin-left: 40%;
 	color: #8B8B8B;
 	font-size: 30px;
@@ -161,7 +229,6 @@ p{
 	text-align: left;
 	margin-top: 15%;
 	margin-left: 40%;
-	font-size: 3.2em;
 	width: auto;
 	color: #8B8B8B;
 	font-size: 68px;
@@ -179,11 +246,6 @@ p{
 	font-size: 68px;
 	text-shadow: 2px 12px 32px #737373;
 	font-weight: 200;
-	
-
-
-
-	
 	/*border: dotted yellow;*/
 	
 }
@@ -225,7 +287,6 @@ li a:hover{
     text-decoration: none;
 
     background-color: rgb(205,63,55);
-    text-decoration: none;
     font-size: 1em;
     color: white;
 }
@@ -283,8 +344,8 @@ body{
 }
 
 .image{
-
 	width:100%;
+	height:100%;
 	background-image: url("./images/lower_footer.png");
 }
 
@@ -322,3 +383,30 @@ body{
 	border-color: #7A7A7A;
 	color: #949494;
 	}
+button.accordion {
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif; 
+    background-color: rgba(225,225,225,0.41);
+    color: #0F0F0F;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+button.accordion.active, button.accordion:hover {
+	background-color: rgba(240,0,4,0.12);}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
