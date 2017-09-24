@@ -72,7 +72,7 @@ p{
 }
 
 .gap_above {
-	margin-top: 25px;
+	margin-top: 50px;
 	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;;
 }
 
@@ -118,6 +118,23 @@ p{
 	width: 100%;
 	/*border: dotted red;*/
 }
+
+.col3{
+	float: left;
+	width:33.33%;
+}
+
+.col4{
+
+	float: center;
+	width:33.33%;
+}
+
+.col5{
+	float: right;
+	width:33.33%;
+}
+
 .lado1{
 	width: auto;
 	text-align: center;
