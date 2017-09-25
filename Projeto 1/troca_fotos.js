@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   }
 
-  setInterval(troca, 2000); // mili segundos
+  setInterval(troca, 6000); // mili segundos
 
 });
 
