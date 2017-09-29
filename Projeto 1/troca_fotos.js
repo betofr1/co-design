@@ -5,16 +5,20 @@ document.addEventListener("DOMContentLoaded", function() {
   var troca = function() {
     var foto = document.querySelector(".foto");
 
-    foto.src = "imagem_inicial" + i + ".jpg";
+    foto.src = "imagens_pi/imagem" + i + ".jpg";
 
-    i++;
 
-    if(i === 3) {
-        i = 1;
+    i+=1;
+
+    if(i === 13){
+      i = 1;
     }
-  }
+  
+    }
 
-  setInterval(troca, 6000); // mili segundos
+  
+
+  setInterval(troca, 4000); // mili segundos
 
 });
 
