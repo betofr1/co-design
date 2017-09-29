@@ -385,6 +385,8 @@ li a:hover{
 
 .foto {
   animation: pulse 4s infinite;
+  width:700px;
+  height:400px;
 }
 
 @keyframes pulse {
