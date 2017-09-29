@@ -95,31 +95,29 @@ p{
 	width: 30%;
 	position: relative;
 	left: 60%;
-	position: relative;
 	
 
 }
 
 .indent-footer {
 	text-align: center;
-	margin-left: 8%;
+	margin-left: 135px;
 	color: #A2A2A2;
 	font-family: "Eras ITC", "Eras Light ITC",  sans-serif;
 }
 .contatos{
 	font-family: "Eras ITC", "Eras Light ITC",  sans-serif;
 	font-size: 3em;
-	color: #F6F5F5;
-	margin-left: 40%;
-	margin-bottom: 2.5%;
-	margin-top: 5%;
-	margin-right: 43%;
-	position: relative;
-	border: dotted black;
-	bottom: -70px;
-
+	text-align: center;
+	color: #D9D5D5;
+	position: center;
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+	left: -29px;
+	top: 50px;
 }
-.footer-f{
+.footer{
 	background-image: url(images/lower_footer.png)
 }
 
@@ -405,8 +403,34 @@ div.panel {
 }
 div.panel {
     padding: 0 18px;
-    background-color: white;
+    background-color: rgba(176,176,176,0.10);
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+	
+}
+.img1 {
+	position: relative;
+	width: 30%; 
+	float:left;
+    margin: 10px 0 10px 0px;
+	
+}
+.tx1{
+	position: relative;
+	margin-left: 396px;
+	clear: right;
+	text-align: center;
+	text-indent: 9px;
+	text-shadow: 0 0 0;
+	font-weight: lighter;
+	bottom: -93px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.fotter{
+	background-image: url("./images/lower_footer.png");
+	padding-top: 99px;
+	padding-bottom: 29px;
 }
