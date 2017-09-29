@@ -40,67 +40,140 @@ p{
 }
 
 .indent3-R{
-	border: dotted black;
 	color: #A2A2A2;
 	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
-	width: 300px;
+	width: 19em;
+	font-size: 12pt;
+
 }
 .indent3-RE{
-	border: dotted black;
 	color: #A2A2A2;
 	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
-	width: 280px;
+	width: 15em;
+	font-size: 12pt;
+
 }
 .indent3-G{
-	border: dotted yellow;
 	color: #A2A2A2;
 	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
-	width: 300px;
+	font-size: 12pt;
+	width: 19em;
+
 }
 .indent3-GE{
-	border: dotted yellow;
 	color: #A2A2A2;
 	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
-	width: 280px;
+	width: 17em;
+	font-size: 12pt;
 }
 .indent3-V{
-	border: dotted black;
 	color: #A2A2A2;
 	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
-	width: 280px;
+	width: 19em;
+	font-size: 12pt;
 }
 .indent3-VE{
-	border: dotted black;
 	color: #A2A2A2;
 	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
-	width: 280px;
+	width: 15em;
+	font-size: 12pt;
 }
 .roberto-f{
-	border: dotted;
-	width: 30%;
-	float: left;
-	position: relative;
-	bottom: -100px;
+	width: 450px;
+	float: right;
 }
 .gabriel-f{
-	border: dotted yellow; 
-	width: 30%;
-	height: 100px;
-	position: relative;	
-	left: 30%;
+	width: 450px;
+	float:left;
 
 }
 .vitor-f{
-	border: dotted;
-	width: 30%;
-	position: relative;
-	left: 60%;
+	width: 450px;
+	margin: 0 auto;
+}
+.conta-geral{
 	
-
 }
 
+.contatos-a{
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif;
+	font-size: 3em;
+	text-align: center;
+	color: #D9D5D5;
+	position: center;
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+	left: -29px;
+	top: 50px;
+}
 .indent-footer {
 	text-align: center;
+	margin-left: 8%;
+	color: #A2A2A2;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif;
+}
+
+.footer-f{
+	background-image: url(images/lower_footer.png)
+}
+.indent3-R-a{
+	color: #A2A2A2;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+	width: 19em;
+	font-size: 12pt;
+}
+.indent3-RE-a{
+	color: #A2A2A2;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+	width: 15em;
+	font-size: 12pt;
+}
+.indent3-G-a{
+	color: #A2A2A2;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+	width: 19em;
+	font-size: 12pt;
+}
+.indent3-GE-a{
+	color: #A2A2A2;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+	font-size: 10pt;
+	width: 17em;
+	font-size: 12pt;
+}
+.indent3-V-a{
+	color: #A2A2A2;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+	width: 19em;
+	font-size: 12pt;
+}
+.indent3-VE-a{
+	color: #A2A2A2;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+	width: 15em;
+	font-size: 12pt;
+}
+.roberto-f-a{
+	width: 370px;
+	float: right;
+}
+.gabriel-f-a{
+	width: 450px;
+	position: 
+	left: 50px;
+	margin: 0 auto;
+
+}
+.vitor-f-alunos{
+	width: 450px;
+	position: relative;
+	bottom: 75px;
+	left: 100px;
+}
+.indent-footer {
+	text-align: center;
+	margin-top: 10px;
 	margin-left: 135px;
 	color: #A2A2A2;
 	font-family: "Eras ITC", "Eras Light ITC",  sans-serif;
@@ -119,6 +192,7 @@ p{
 }
 .footer{
 	background-image: url(images/lower_footer.png)
+	height: 500px;
 }
 
 .indent4 {
