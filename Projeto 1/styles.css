@@ -457,6 +457,7 @@ body{
 	}
 button.accordion {
 	font-family: "Eras ITC", "Eras Light ITC",  sans-serif; 
+	font-size: 18pt;
     background-color: rgba(225,225,225,0.41);
     color: #0F0F0F;
     cursor: pointer;
@@ -492,6 +493,8 @@ div.panel {
 }
 .tx1{
 	position: relative;
+	font-family: "Eras ITC", "Eras Light ITC",  sans-serif; 
+	font-size: 12pt;
 	margin-left: 396px;
 	clear: right;
 	text-align: center;
