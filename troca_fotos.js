@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     i+=1;
 
-    if(i === 13){
+    if(i === 14){
       i = 1;
     }
   
@@ -21,5 +21,3 @@ document.addEventListener("DOMContentLoaded", function() {
   setInterval(troca, 5000); // mili segundos
 
 });
-
-
