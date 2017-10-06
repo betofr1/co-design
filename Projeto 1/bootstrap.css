@@ -5101,7 +5101,7 @@ button.close {
   -ms-flex-pack: center;
       justify-content: center;
   width: 15%;
-  color: #fff;
+  color: none;
   text-align: center;
   opacity: 0.5;
 }
@@ -5109,7 +5109,7 @@ button.close {
 .carousel-control-prev:focus, .carousel-control-prev:hover,
 .carousel-control-next:focus,
 .carousel-control-next:hover {
-  color: #fff;
+  color: red ;
   text-decoration: none;
   outline: 0;
   opacity: .9;
@@ -5200,7 +5200,7 @@ button.close {
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #fff;
+  color: none;
   text-align: center;
 }
 
