@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     i+=1;
 
-    if(i === 14){
+    if(i === 13){
       i = 1;
     }
   
